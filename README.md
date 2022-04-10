@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @Layrexd
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+class Layrex {
+    constructor(options) {
+        this.name = "Fatih",
+        this.sex = "man",
+        this.length = "186",
+        this.type = "human",
+        this.job = "student",
+        this.weight = "67",
+        this.age = "18"
+    };
+}
 
-<!---
-Layrexd/Layrexd is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+export default Layrex
